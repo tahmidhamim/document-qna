@@ -99,3 +99,7 @@ doc_qa/
 2. **Retrieval** — When a question arrives, a condensed standalone version is embedded and used to find the top-4 most similar chunks from FAISS.
 
 3. **Generation** — A strict system prompt instructs the LLM to answer using *only* the retrieved chunks, preventing hallucinations. The chain maintains a sliding 6-message conversation window so follow-up questions work naturally.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
