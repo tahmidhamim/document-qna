@@ -14,12 +14,12 @@ from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
-LLM_MODEL = "openai/gpt-3.5-turbo"
+LLM_MODEL = "openai/gpt-4o-mini"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-V2"
-CHUNK_SIZE = 1000
+CHUNK_SIZE = 800
 CHUNK_OVERLAP = 100
 TOP_K_DOCS = 4
-MEMORY_WINDOW = 10
+MEMORY_WINDOW = 6
 
 CONDENSE_PROMPT = ChatPromptTemplate.from_messages(
     [
