@@ -103,3 +103,7 @@ doc_qa/
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Live App
+
+The app is live in this [link](https://document-qna-xzuzyglhecw2tsdz8lommf.streamlit.app/).
